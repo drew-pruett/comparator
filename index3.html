@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Comparator</title>
+
+    		<!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    		<!-- Custom styles for this template -->
+    <link href="cover2.css" rel="stylesheet">
+
+          <script language="javascript" src="comparator3.js">
+          </script>
+
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Comparator</h3>
+              <ul class="nav masthead-nav">
+              </ul>
+            </div>
+          </div>
+          <div>
+	         <form class="form-inline" id="myform1">
+             <div class="form-group">
+	             <label class="sr-only" for="SBP1">SBP1</label>
+	             <input type="text" class="form-control" id="SBP1" placeholder="SBP1">
+             </div>
+	           <div class="form-group">
+	             <label class="sr-only" for="DBP1">DBP1</label>
+	             <input type="text" class="form-control" id="DBP1" placeholder="DBP1">
+	           </div>
+    	       <div class="form-group">
+	             <label class="sr-only" for="RR1">RR1</label>
+	       	     <input type="text" class="form-control" id="RR1" placeholder="RR1">
+	           </div>
+    	       <div class="form-group">
+	             <label class="sr-only" for="HR1">HR1</label>
+	       	     <input type="text" class="form-control" id="HR1" placeholder="HR1">
+	           </div>
+	         </form>
+            <form class="form-inline" id="myform2">
+             <div class="form-group">
+               <label class="sr-only" for="SBP2">SBP2</label>
+               <div><input type="text" class="form-control" id="SBP2" placeholder="SBP2"></div>
+             </div>
+             <div class="form-group">
+               <label class="sr-only" for="DBP2">DBP2</label>
+               <input type="text" class="form-control" id="DBP2" placeholder="DBP2">
+             </div>
+             <div class="form-group">
+               <label class="sr-only" for="RR2">RR2</label>
+               <input type="text" class="form-control" id="RR2" placeholder="RR2">
+             </div>
+             <div class="form-group">
+               <label class="sr-only" for="HR2">HR2</label>
+               <input type="text" class="form-control" id="HR2" placeholder="HR2">
+             </div>
+           </form>
+           <form class="form-inline" id="myform3">
+             <div class="form-group">
+               <label class="sr-only" for="SBP3">SBP3</label>
+               <input type="text" class="form-control" id="SBP3" placeholder="SBP3">
+             </div>
+             <div class="form-group">
+               <label class="sr-only" for="DBP3">DBP3</label>
+               <input type="text" class="form-control" id="DBP3" placeholder="DBP3">
+             </div>
+             <div class="form-group">
+               <label class="sr-only" for="RR3">RR3</label>
+               <input type="text" class="form-control" id="RR3" placeholder="RR3">
+             </div>
+             <div class="form-group">
+               <label class="sr-only" for="HR3">HR3</label>
+               <input type="text" class="form-control" id="HR3" placeholder="HR3">
+             </div>
+           </form>
+          </div>
+          <div>
+          <div class="inner">
+              <p class="button-container">
+                <button class="btn btn-default" onClick="addNumbers()" > Prediction</button>
+                <input type="text" class="form-control" id="Outcome" placeholder="Outcome" >
+              </p>
+              <p class="button-container">
+                <button class="btn btn-default" onClick="cycle()" > Cycle values </button>
+              </p>              <p class="button-container">
+                <button class="btn btn-default" onClick="reset()" > Reset values </button>
+              </p>
+          </div>
+        </div>
+        </div>
+      </div>
+                
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  </body>
+</html>
+
+<button type=“button” class="btn btn-primary">Calculate</button>
+
